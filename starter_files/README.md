@@ -37,12 +37,38 @@ The Model found in the Step 2 has been deployed using Azure Container Instance (
 
 ### Step 4: Logging
 
+After successfully deploying the Best Model, the Application Insights have been enabled for the endpoint. This will enable to monitor and collect data on the following:
+* Output data
+* Responses
+* Request rates, response times, and failure rates
+* Dependency rates, response times, and failure rates
+* Exceptions
+
+The logging through Application Insights was enabled using provided script 'logs.py'. Below is the screenshot of the script running:
+
+![image](https://user-images.githubusercontent.com/77756713/129487901-cc4ffd60-6aaa-4090-bfa0-36aa37bbaf2c.png)
+
+Application Insights on the 'bank-marketing-model2' endpoint have been enabled and the insight url have been created:
+
 ![image](https://user-images.githubusercontent.com/77756713/129486176-4a3a1343-db6a-4fe2-b3e6-49d7b6b405b9.png)
+
 
 
 ### Step 5: Swagger Documentation
 
+![image](https://user-images.githubusercontent.com/77756713/129488411-3381403e-0d35-44ed-9b12-74bae89a18d9.png)
+
+
 ### Step 6: Model Endpoint
+
+Next, I tested the 'bank-marketing-model2' models endpoint using script 'endpoint.py' with two sample data points. It's worth noting, that the original version of this script resulted in error being returned from the endpoint and only after modyfying the order of the keys in the script to match the order in the model schema (as per [this](https://knowledge.udacity.com/questions/639437) thread on the Udacity Knowledge base), the endpoint returned correct answers: 
+
+![image](https://user-images.githubusercontent.com/77756713/129488463-48b66190-4493-449f-bf59-938cb0277c7e.png)
+
+Below is the result of load-testing the models's ednpoint using Apache Benchmark tool. All the requests were served within 237ms which is far less than the maximum of 60s:
+
+![image](https://user-images.githubusercontent.com/77756713/129488470-d771519e-594c-4551-b216-528b67311d60.png)
+
 
 ### Step 7: Pipeline Creation
 
