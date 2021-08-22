@@ -73,6 +73,30 @@ Below is the result of load-testing the models's ednpoint using Apache Benchmark
 ### Step 7: Pipeline Creation
 
 
+Pipeline has been created:
+
+![image](https://user-images.githubusercontent.com/77756713/130364509-4bffa76b-6fd5-4547-9567-c2745c1d9163.png)
+
+Pipeline endpoints:
+
+![image](https://user-images.githubusercontent.com/77756713/130364847-49560ec6-5853-4d49-8ffe-372ea7c774d9.png)
+
+
+Dataset:
+
+![image](https://user-images.githubusercontent.com/77756713/130364919-5a6df2ab-f119-44a1-aab0-22d6f461c396.png)
+
+
+
+REST endpoint of the pipeline is Active:
+
+![image](https://user-images.githubusercontent.com/77756713/130364803-b2dab5c3-5286-40a4-9571-56f62311bf3c.png)
+
+
+Steps run in the RunDetails Widget
+
+![image](https://user-images.githubusercontent.com/77756713/130364966-50f8e18b-7512-4533-b1b9-e7571021ea2f.png)
+
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
