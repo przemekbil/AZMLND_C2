@@ -99,7 +99,5 @@ Steps run in the RunDetails Widget
 
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+https://youtu.be/kXelM_wlRu8
 
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
