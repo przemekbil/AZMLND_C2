@@ -93,11 +93,23 @@ REST endpoint of the pipeline is Active:
 ![image](https://user-images.githubusercontent.com/77756713/130364803-b2dab5c3-5286-40a4-9571-56f62311bf3c.png)
 
 
-Steps run in the RunDetails Widget
+Steps run in the RunDetails Widget:
 
 ![image](https://user-images.githubusercontent.com/77756713/130364966-50f8e18b-7512-4533-b1b9-e7571021ea2f.png)
 
+Pipeline Endpoint status is Active:
+
+![image](https://user-images.githubusercontent.com/77756713/132136295-a99e4010-4ae8-48b6-9576-e412d3e75b4e.png)
+
+
 
 ## Screen Recording
-https://youtu.be/kXelM_wlRu8
+
+Screencast for this project:
+https://youtu.be/aW1HVwou3vk
+
+
+## Future Improvement Suggestions
+
+* As in the first Project, dataset used is heavily imbalanced with nearly 90% of the values being "No" (29,258 vs 3,692 "Yes" answers). This could lead to false high model accuracy as even dummy model that always predicts "No" would be correct in 88% of the cases. As a future improvement, we should rebalance the dataset first before training the model
 
