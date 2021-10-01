@@ -1,6 +1,6 @@
 # Operationalizing Machine Learning with Azure ML using Bank Marketing sample dataset
 
-In this project, I will use Azure ML Studio to configure a cloud-based machine learning production model, deploy it and then consume it. I will also create, publish, and consume a pipeline.
+In this project, I will use Azure ML Studio to create a cloud-based machine learning production model. I will deploy the best performing model as a service on a Azure Container Instance (ACI) and I will show how to consume it using its API endpoint. I will also create and publish an Azure pipeline, which will allow me to trigger an experiment run through the pipelines HTTP Endpoint.
 
 ## Architectural Diagram
 
